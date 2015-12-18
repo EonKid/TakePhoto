@@ -14,6 +14,7 @@
 		A6ADB1431C23DCBF001C061E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6ADB1421C23DCBF001C061E /* Images.xcassets */; };
 		A6ADB1461C23DCBF001C061E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6ADB1441C23DCBF001C061E /* LaunchScreen.xib */; };
 		A6ADB1521C23DCBF001C061E /* TakePhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ADB1511C23DCBF001C061E /* TakePhotoTests.m */; };
+		A6ADB15C1C23E597001C061E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6ADB15B1C23E597001C061E /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A6ADB14B1C23DCBF001C061E /* TakePhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakePhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6ADB1501C23DCBF001C061E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6ADB1511C23DCBF001C061E /* TakePhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakePhotoTests.m; sourceTree = "<group>"; };
+		A6ADB15B1C23E597001C061E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6ADB15C1C23E597001C061E /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		A6ADB1291C23DCBF001C061E = {
 			isa = PBXGroup;
 			children = (
+				A6ADB15B1C23E597001C061E /* CoreGraphics.framework */,
 				A6ADB1341C23DCBF001C061E /* TakePhoto */,
 				A6ADB14E1C23DCBF001C061E /* TakePhotoTests */,
 				A6ADB1331C23DCBF001C061E /* Products */,
